@@ -1,0 +1,97 @@
+.movie {
+  @apply w-full relative flex flex-col items-center;
+}
+
+.movie__intro {
+  @apply w-[80%];
+}
+
+.movie__backdrop {
+  object-position: 0 35%;
+  @apply w-full h-[500px] object-cover;
+}
+
+.movie__detail {
+  @apply flex items-center w-[75%] relative bottom-[225px];
+}
+
+.movie__detailLeft {
+  @apply mr-[30px];
+}
+
+.movie__poster {
+  box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+  @apply w-[300px] rounded-[10px];
+}
+
+.movie__detailRight {
+  @apply text-white flex flex-col h-[450px] justify-between;
+}
+
+.movie__detailRightTop > div {
+  text-shadow: 0px 0px 5px #000000;
+  @apply mb-2;
+}
+
+.movie__name {
+  @apply font-[600] text-[3rem];
+}
+
+.movie__voteCount {
+  @apply ml-4;
+}
+
+.movie__genres {
+  @apply my-[1.25rem];
+}
+
+.movie__genre {
+  @apply p-[0.5rem] border-[2px] border-white rounded-[20px] mr-4;
+}
+
+.movie__detailRightBottom {
+  @apply my-4 flex-[0.8];
+}
+
+.synopsisText {
+  @apply text-[1.5rem] mb-[1.25rem] font-[600] flex relative items-center;
+}
+.synopsisText > div:last-of-type {
+  @apply ml-auto;
+}
+
+.movie__links {
+  @apply relative bottom-[120px] flex justify-between w-[75%];
+}
+
+.movie__heading {
+  @apply text-[2.2rem] text-white;
+}
+
+.movie__Button {
+  @apply flex justify-center items-center py-[0.8rem] px-[2rem] rounded-[20px] cursor-pointer w-[150px] text-black font-bold;
+}
+
+.movie__homeButton {
+  @apply bg-red-600;
+}
+
+.movie__imdbButton {
+  @apply bg-[#f3ce13];
+}
+
+.newTab {
+  @apply ml-[1.4rem];
+}
+
+.movie__production {
+  @apply w-[85%] flex justify-center items-end mb-[4rem];
+}
+
+.movie__productionComapany {
+  @apply w-[200px] m-8;
+}
+
+.productionCompanyImage {
+  @apply flex flex-col items-center justify-center;
+}
